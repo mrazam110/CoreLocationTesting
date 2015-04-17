@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B16B43D12033B6565D8629B /* GFRegionQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = DD989AD559C4373062F8C46A /* GFRegionQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2387091E578CA1C1301272D5 /* Pods-googlefirebase-GeoFire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9F1A52FC1F270FCB119B6E /* Pods-googlefirebase-GeoFire-dummy.m */; };
+		25FAECF42FF3352BA6114A67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03E7239D377EE8ABE126BCD /* Foundation.framework */; };
+		3D853FB5DFDC855E8816A2AB /* GFCircleQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E85688C4D902BAB7DF6FF4 /* GFCircleQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4329906BF4AD378B380F1C7D /* GFGeoHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 7733FFD2705FF3F4CE275B8A /* GFGeoHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		488EF5327DAA6F7EE1FFEE1A /* GFBase32Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4455956927BB6B4217422705 /* GFBase32Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E2B2EF11145F1B11A89CA32 /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F9032E17E149585CD79B61E3 /* GFQuery.m */; };
+		69A1DA44B369D46C9C2AB098 /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F6833A14EBB30979D5EC9F5B /* GFBase32Utils.m */; };
+		71CC1C81D2175A1D75EB3DDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03E7239D377EE8ABE126BCD /* Foundation.framework */; };
+		7853AFBF779C1BFA31DEBD3B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B7BBFDFF6561FD0D37AFB0 /* CoreLocation.framework */; };
+		8CE68B26C0AED9A4E3DB1F55 /* Pods-googlefirebase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41FCDFDC2F1E824A17995414 /* Pods-googlefirebase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D5666B89C808C09DD267F5C /* GeoFire+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = AD53E5A03802226DA9D97813 /* GeoFire+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD57BBBA1B4F71029F02F388 /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A0AEA016A319BA9313987E /* GFGeoHashQuery.m */; };
+		BEB0A97C94F65DAA340C21F3 /* Pods-googlefirebase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD188DE9E76CFB99B38650E /* Pods-googlefirebase-dummy.m */; };
+		C336C3E9B8D11889E5B2F551 /* GFGeoHashQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E6D7843BD872C7209185BFE /* GFGeoHashQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD406E3412D6EB3ACCCB6CB4 /* GFQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 27ACB8E6EBF6BD6104A1FAF4 /* GFQuery+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA025371CCE32730A8E64557 /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 922FB588C30CFD054566B734 /* GFGeoHash.m */; };
+		DBD27CECB8F22655222173B6 /* GFQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 139E1D1CA7FE328BDFFA0B70 /* GFQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC07C0605B41BE7B7DEFA117 /* Pods-googlefirebase-GeoFire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D11825E2CC4D5183AD34808 /* Pods-googlefirebase-GeoFire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E176AD296272531A0C476DFA /* GeoFire.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E844C5C9F81C53217E22103 /* GeoFire.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E504A8D6AC25C7517B53D40B /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B9A8D205CC4EFD7CF13BB5 /* GeoFire.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D78CFB69F41E0B515509F033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54A3FD46A0E4FD2548627604 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF562009C9267AF4F2E2A0B7;
+			remoteInfo = "Pods-googlefirebase-GeoFire";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004EEE04F56ADB62D35EDF05 /* Pods-googlefirebase-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-googlefirebase-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C420DF7473756B7C899A982 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		0CD188DE9E76CFB99B38650E /* Pods-googlefirebase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-googlefirebase-dummy.m"; sourceTree = "<group>"; };
+		101377F952E1E9928BD99E8D /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		139E1D1CA7FE328BDFFA0B70 /* GFQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFQuery.h; path = GeoFire/API/GFQuery.h; sourceTree = "<group>"; };
+		14E85688C4D902BAB7DF6FF4 /* GFCircleQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFCircleQuery.h; path = GeoFire/API/GFCircleQuery.h; sourceTree = "<group>"; };
+		23BD2F429B4A3C3C65F2E0BC /* Pods-googlefirebase-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-googlefirebase-resources.sh"; sourceTree = "<group>"; };
+		27ACB8E6EBF6BD6104A1FAF4 /* GFQuery+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GFQuery+Private.h"; path = "GeoFire/Implementation/GFQuery+Private.h"; sourceTree = "<group>"; };
+		2A88DC9F952A01015450030D /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2C9F1A52FC1F270FCB119B6E /* Pods-googlefirebase-GeoFire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-googlefirebase-GeoFire-dummy.m"; sourceTree = "<group>"; };
+		41FCDFDC2F1E824A17995414 /* Pods-googlefirebase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-googlefirebase-umbrella.h"; sourceTree = "<group>"; };
+		4455956927BB6B4217422705 /* GFBase32Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFBase32Utils.h; path = GeoFire/Implementation/GFBase32Utils.h; sourceTree = "<group>"; };
+		49278767FE0CFCDA6A330ED5 /* Pods-googlefirebase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-googlefirebase.modulemap"; sourceTree = "<group>"; };
+		4FC5A24F01D4EE1E76BA6F81 /* Pods-googlefirebase-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-googlefirebase-acknowledgements.plist"; sourceTree = "<group>"; };
+		50904BE1E84BBF74577BD178 /* GeoFire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GeoFire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5731F1FA0900ED1C3BC6AC89 /* Pods-googlefirebase-GeoFire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-googlefirebase-GeoFire-prefix.pch"; sourceTree = "<group>"; };
+		5F48789A1444CF3996ACDD53 /* Pods-googlefirebase-GeoFire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-googlefirebase-GeoFire.modulemap"; sourceTree = "<group>"; };
+		65472AE2A81B9C6A1B136FBE /* Pods-googlefirebase-GeoFire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-googlefirebase-GeoFire-Private.xcconfig"; sourceTree = "<group>"; };
+		66B9A8D205CC4EFD7CF13BB5 /* GeoFire.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GeoFire.m; path = GeoFire/Implementation/GeoFire.m; sourceTree = "<group>"; };
+		7733FFD2705FF3F4CE275B8A /* GFGeoHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFGeoHash.h; path = GeoFire/Implementation/GFGeoHash.h; sourceTree = "<group>"; };
+		7BAF05B9EC7036F405302983 /* Pods-googlefirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-googlefirebase.release.xcconfig"; sourceTree = "<group>"; };
+		7E6D7843BD872C7209185BFE /* GFGeoHashQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFGeoHashQuery.h; path = GeoFire/Implementation/GFGeoHashQuery.h; sourceTree = "<group>"; };
+		7E844C5C9F81C53217E22103 /* GeoFire.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoFire.h; path = GeoFire/API/GeoFire.h; sourceTree = "<group>"; };
+		87F9727EE5075625F14FDB51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C6DDE1AB02B222221C296D7 /* Pods-googlefirebase-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-googlefirebase-environment.h"; sourceTree = "<group>"; };
+		922FB588C30CFD054566B734 /* GFGeoHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFGeoHash.m; path = GeoFire/Implementation/GFGeoHash.m; sourceTree = "<group>"; };
+		9D11825E2CC4D5183AD34808 /* Pods-googlefirebase-GeoFire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-googlefirebase-GeoFire-umbrella.h"; sourceTree = "<group>"; };
+		AD53E5A03802226DA9D97813 /* GeoFire+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GeoFire+Private.h"; path = "GeoFire/Implementation/GeoFire+Private.h"; sourceTree = "<group>"; };
+		B70865BA8A34038AE55488D3 /* Pods-googlefirebase-GeoFire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-googlefirebase-GeoFire.xcconfig"; sourceTree = "<group>"; };
+		BA9131C3CA245453DE382282 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3A0AEA016A319BA9313987E /* GFGeoHashQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFGeoHashQuery.m; path = GeoFire/Implementation/GFGeoHashQuery.m; sourceTree = "<group>"; };
+		C5ED7EF295A1E9B684AE0A88 /* Pods_googlefirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_googlefirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03E7239D377EE8ABE126BCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DD989AD559C4373062F8C46A /* GFRegionQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFRegionQuery.h; path = GeoFire/API/GFRegionQuery.h; sourceTree = "<group>"; };
+		DE22CCB0BA4A12336184311D /* Pods-googlefirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-googlefirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		DEB2D47FBBAD58761D112034 /* Pods-googlefirebase-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-googlefirebase-frameworks.sh"; sourceTree = "<group>"; };
+		F5B7BBFDFF6561FD0D37AFB0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		F6833A14EBB30979D5EC9F5B /* GFBase32Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFBase32Utils.m; path = GeoFire/Implementation/GFBase32Utils.m; sourceTree = "<group>"; };
+		F9032E17E149585CD79B61E3 /* GFQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFQuery.m; path = GeoFire/Implementation/GFQuery.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2954407E25621506CD422F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CC1C81D2175A1D75EB3DDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3186FA7245231B2EFC00DAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7853AFBF779C1BFA31DEBD3B /* CoreLocation.framework in Frameworks */,
+				25FAECF42FF3352BA6114A67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21337F8FA0E076D408EFDDCC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA9131C3CA245453DE382282 /* Info.plist */,
+				5F48789A1444CF3996ACDD53 /* Pods-googlefirebase-GeoFire.modulemap */,
+				B70865BA8A34038AE55488D3 /* Pods-googlefirebase-GeoFire.xcconfig */,
+				65472AE2A81B9C6A1B136FBE /* Pods-googlefirebase-GeoFire-Private.xcconfig */,
+				2C9F1A52FC1F270FCB119B6E /* Pods-googlefirebase-GeoFire-dummy.m */,
+				5731F1FA0900ED1C3BC6AC89 /* Pods-googlefirebase-GeoFire-prefix.pch */,
+				9D11825E2CC4D5183AD34808 /* Pods-googlefirebase-GeoFire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-googlefirebase-GeoFire";
+			sourceTree = "<group>";
+		};
+		276E079AE4E22726BEFC4A7A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F5B7BBFDFF6561FD0D37AFB0 /* CoreLocation.framework */,
+				D03E7239D377EE8ABE126BCD /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E70BB23C792C71817941921 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		8875C77BCD5E403C9FB0F88C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC6E50C1793E6610FD134A24 /* Pods-googlefirebase */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9263A9E2DB4B26523A9A42A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				101377F952E1E9928BD99E8D /* GoogleMaps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B27F36B6F3AAE75C04A632D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50904BE1E84BBF74577BD178 /* GeoFire.framework */,
+				C5ED7EF295A1E9B684AE0A88 /* Pods_googlefirebase.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB7DED6BAFA10F44D0C7FAF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C420DF7473756B7C899A982 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C768F4486754870A56B40530 = {
+			isa = PBXGroup;
+			children = (
+				2A88DC9F952A01015450030D /* Podfile */,
+				E12198BF2061E0B163821273 /* Frameworks */,
+				CBC105E3D6CF772CB51BC680 /* Pods */,
+				B27F36B6F3AAE75C04A632D9 /* Products */,
+				8875C77BCD5E403C9FB0F88C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CBC105E3D6CF772CB51BC680 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E70BB23C792C71817941921 /* Firebase */,
+				FF1DA55AA71DC703707BD561 /* GeoFire */,
+				EC82B60D80ECB28AE4AE0C03 /* Google-Maps-iOS-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E12198BF2061E0B163821273 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				276E079AE4E22726BEFC4A7A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC82B60D80ECB28AE4AE0C03 /* Google-Maps-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				9263A9E2DB4B26523A9A42A0 /* Frameworks */,
+				BB7DED6BAFA10F44D0C7FAF1 /* Resources */,
+			);
+			path = "Google-Maps-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		FC6E50C1793E6610FD134A24 /* Pods-googlefirebase */ = {
+			isa = PBXGroup;
+			children = (
+				87F9727EE5075625F14FDB51 /* Info.plist */,
+				49278767FE0CFCDA6A330ED5 /* Pods-googlefirebase.modulemap */,
+				004EEE04F56ADB62D35EDF05 /* Pods-googlefirebase-acknowledgements.markdown */,
+				4FC5A24F01D4EE1E76BA6F81 /* Pods-googlefirebase-acknowledgements.plist */,
+				0CD188DE9E76CFB99B38650E /* Pods-googlefirebase-dummy.m */,
+				8C6DDE1AB02B222221C296D7 /* Pods-googlefirebase-environment.h */,
+				DEB2D47FBBAD58761D112034 /* Pods-googlefirebase-frameworks.sh */,
+				23BD2F429B4A3C3C65F2E0BC /* Pods-googlefirebase-resources.sh */,
+				41FCDFDC2F1E824A17995414 /* Pods-googlefirebase-umbrella.h */,
+				DE22CCB0BA4A12336184311D /* Pods-googlefirebase.debug.xcconfig */,
+				7BAF05B9EC7036F405302983 /* Pods-googlefirebase.release.xcconfig */,
+			);
+			name = "Pods-googlefirebase";
+			path = "Target Support Files/Pods-googlefirebase";
+			sourceTree = "<group>";
+		};
+		FF1DA55AA71DC703707BD561 /* GeoFire */ = {
+			isa = PBXGroup;
+			children = (
+				4455956927BB6B4217422705 /* GFBase32Utils.h */,
+				F6833A14EBB30979D5EC9F5B /* GFBase32Utils.m */,
+				14E85688C4D902BAB7DF6FF4 /* GFCircleQuery.h */,
+				7733FFD2705FF3F4CE275B8A /* GFGeoHash.h */,
+				922FB588C30CFD054566B734 /* GFGeoHash.m */,
+				7E6D7843BD872C7209185BFE /* GFGeoHashQuery.h */,
+				C3A0AEA016A319BA9313987E /* GFGeoHashQuery.m */,
+				139E1D1CA7FE328BDFFA0B70 /* GFQuery.h */,
+				F9032E17E149585CD79B61E3 /* GFQuery.m */,
+				27ACB8E6EBF6BD6104A1FAF4 /* GFQuery+Private.h */,
+				DD989AD559C4373062F8C46A /* GFRegionQuery.h */,
+				7E844C5C9F81C53217E22103 /* GeoFire.h */,
+				66B9A8D205CC4EFD7CF13BB5 /* GeoFire.m */,
+				AD53E5A03802226DA9D97813 /* GeoFire+Private.h */,
+				21337F8FA0E076D408EFDDCC /* Support Files */,
+			);
+			path = GeoFire;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A19D3AD26FC145E4AD7654DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488EF5327DAA6F7EE1FFEE1A /* GFBase32Utils.h in Headers */,
+				3D853FB5DFDC855E8816A2AB /* GFCircleQuery.h in Headers */,
+				4329906BF4AD378B380F1C7D /* GFGeoHash.h in Headers */,
+				C336C3E9B8D11889E5B2F551 /* GFGeoHashQuery.h in Headers */,
+				CD406E3412D6EB3ACCCB6CB4 /* GFQuery+Private.h in Headers */,
+				DBD27CECB8F22655222173B6 /* GFQuery.h in Headers */,
+				1B16B43D12033B6565D8629B /* GFRegionQuery.h in Headers */,
+				8D5666B89C808C09DD267F5C /* GeoFire+Private.h in Headers */,
+				E176AD296272531A0C476DFA /* GeoFire.h in Headers */,
+				DC07C0605B41BE7B7DEFA117 /* Pods-googlefirebase-GeoFire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B21DA4964C94852F154626 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE68B26C0AED9A4E3DB1F55 /* Pods-googlefirebase-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		266824358749688BDA34A8F8 /* Pods-googlefirebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B1AA11539D5B1BA33B247F5 /* Build configuration list for PBXNativeTarget "Pods-googlefirebase" */;
+			buildPhases = (
+				968EBAF3F92B77B0AEA0F012 /* Sources */,
+				2954407E25621506CD422F43 /* Frameworks */,
+				B7B21DA4964C94852F154626 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15EA4B291C5869F075CAFCE4 /* PBXTargetDependency */,
+			);
+			name = "Pods-googlefirebase";
+			productName = "Pods-googlefirebase";
+			productReference = C5ED7EF295A1E9B684AE0A88 /* Pods_googlefirebase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF562009C9267AF4F2E2A0B7 /* Pods-googlefirebase-GeoFire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A25070DCBF64E187016550B /* Build configuration list for PBXNativeTarget "Pods-googlefirebase-GeoFire" */;
+			buildPhases = (
+				C97FE2D5BCA68C0FE30D75A9 /* Sources */,
+				E3186FA7245231B2EFC00DAD /* Frameworks */,
+				A19D3AD26FC145E4AD7654DC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-googlefirebase-GeoFire";
+			productName = "Pods-googlefirebase-GeoFire";
+			productReference = 50904BE1E84BBF74577BD178 /* GeoFire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54A3FD46A0E4FD2548627604 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = A95558643260B2219B15CC14 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C768F4486754870A56B40530;
+			productRefGroup = B27F36B6F3AAE75C04A632D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				266824358749688BDA34A8F8 /* Pods-googlefirebase */,
+				AF562009C9267AF4F2E2A0B7 /* Pods-googlefirebase-GeoFire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		968EBAF3F92B77B0AEA0F012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB0A97C94F65DAA340C21F3 /* Pods-googlefirebase-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97FE2D5BCA68C0FE30D75A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A1DA44B369D46C9C2AB098 /* GFBase32Utils.m in Sources */,
+				DA025371CCE32730A8E64557 /* GFGeoHash.m in Sources */,
+				BD57BBBA1B4F71029F02F388 /* GFGeoHashQuery.m in Sources */,
+				5E2B2EF11145F1B11A89CA32 /* GFQuery.m in Sources */,
+				E504A8D6AC25C7517B53D40B /* GeoFire.m in Sources */,
+				2387091E578CA1C1301272D5 /* Pods-googlefirebase-GeoFire-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15EA4B291C5869F075CAFCE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-googlefirebase-GeoFire";
+			target = AF562009C9267AF4F2E2A0B7 /* Pods-googlefirebase-GeoFire */;
+			targetProxy = D78CFB69F41E0B515509F033 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CADB60692FA8DE497BB2573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BAF05B9EC7036F405302983 /* Pods-googlefirebase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-googlefirebase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-googlefirebase/Pods-googlefirebase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_googlefirebase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1E79B5C98268E191163B2402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		26B6ED6A59BAAF6A38C2FDB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65472AE2A81B9C6A1B136FBE /* Pods-googlefirebase-GeoFire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-googlefirebase-GeoFire/Pods-googlefirebase-GeoFire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-googlefirebase-GeoFire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-googlefirebase-GeoFire/Pods-googlefirebase-GeoFire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GeoFire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		991769CDD7BEE9950079E827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65472AE2A81B9C6A1B136FBE /* Pods-googlefirebase-GeoFire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-googlefirebase-GeoFire/Pods-googlefirebase-GeoFire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-googlefirebase-GeoFire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-googlefirebase-GeoFire/Pods-googlefirebase-GeoFire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GeoFire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9EDA5478A7DE3BB4A42CB65E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE30B2E69AD651881A78A11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE22CCB0BA4A12336184311D /* Pods-googlefirebase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-googlefirebase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-googlefirebase/Pods-googlefirebase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_googlefirebase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B1AA11539D5B1BA33B247F5 /* Build configuration list for PBXNativeTarget "Pods-googlefirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE30B2E69AD651881A78A11C /* Debug */,
+				0CADB60692FA8DE497BB2573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A25070DCBF64E187016550B /* Build configuration list for PBXNativeTarget "Pods-googlefirebase-GeoFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B6ED6A59BAAF6A38C2FDB9 /* Debug */,
+				991769CDD7BEE9950079E827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A95558643260B2219B15CC14 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E79B5C98268E191163B2402 /* Debug */,
+				9EDA5478A7DE3BB4A42CB65E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54A3FD46A0E4FD2548627604 /* Project object */;
+}

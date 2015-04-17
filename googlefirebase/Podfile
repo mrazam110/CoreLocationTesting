@@ -1,0 +1,14 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+
+target 'googlefirebase' do
+pod 'Firebase', '>= 2.2.1'
+pod 'GeoFire', '>= 1.1'
+pod 'Google-Maps-iOS-SDK', :podspec => "https://raw.githubusercontent.com/Reflejo/GoogleMapsPodspec/master/Google-Maps-iOS-SDK.podspec.json"
+use_frameworks! # don't forget this!
+end
+
+target 'googlefirebaseTests' do
+
+end
+

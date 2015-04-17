@@ -1,0 +1,21 @@
+PODS:
+  - Firebase (2.2.1)
+  - GeoFire (1.1.0):
+    - Firebase (~> 2.1)
+  - Google-Maps-iOS-SDK (1.9.2)
+
+DEPENDENCIES:
+  - Firebase (>= 2.2.1)
+  - GeoFire (>= 1.1)
+  - Google-Maps-iOS-SDK (from `https://raw.githubusercontent.com/Reflejo/GoogleMapsPodspec/master/Google-Maps-iOS-SDK.podspec.json`)
+
+EXTERNAL SOURCES:
+  Google-Maps-iOS-SDK:
+    :podspec: https://raw.githubusercontent.com/Reflejo/GoogleMapsPodspec/master/Google-Maps-iOS-SDK.podspec.json
+
+SPEC CHECKSUMS:
+  Firebase: a3d54b42f090ca275b22dcdf103b8ab6ac6f353c
+  GeoFire: 1a6f2cbcd66507b9756b86d99ecb035d99497c89
+  Google-Maps-iOS-SDK: cd766778744e33806fd11cd6a730d5706d20e325
+
+COCOAPODS: 0.36.4
